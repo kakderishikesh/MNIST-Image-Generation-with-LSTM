@@ -1,4 +1,4 @@
-# MNIST Image Completion using RNNs (LSTM/GRU)
+# MNIST Image Generation with LSTM
 
 ## Overview
 This project implements a **Recurrent Neural Network (RNN)** using **LSTM or GRU** to generate the missing bottom half of MNIST digit images given the top half. The model is trained on sequences of **vectorized image patches** and learns to predict the next sequence step-by-step. The trained network is capable of reconstructing digit images using a generative approach.
